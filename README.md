@@ -1,5 +1,3 @@
-# 4143-PLC-VicMar
-
 ## Victor Marchesi
 #### Repo: 4143-PLC-VicMar
 #### vzmarchesi1016@my.msutexas.edu

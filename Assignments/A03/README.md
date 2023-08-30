@@ -8,7 +8,7 @@ My banner.
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [BANNER.cpp] | My Banner. |
+|   1   | [BANNER.cpp](./BANNER.cpp) | My Banner. |
 
 
 ### Instructions

@@ -8,7 +8,7 @@ List of all the programs for this class using markdown for ease of access.
 
 |   #   | Folder    | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [A03](./A03) | My Banner |
+|   1   | [Banner](./Banner) | My Banner |
 
 ### Instructions
 

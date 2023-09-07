@@ -9,7 +9,7 @@ Write a Go package that checks to see what mascot you choose implement a main.go
 
 |   #   | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [P01.go](./P01.go) | My Banner. |
+|   1   | [P01_VictorM.go](./P01_VictorM.go) | P01 goLang program |
 
 
 ### Instructions

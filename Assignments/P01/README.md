@@ -20,8 +20,8 @@ Write a Go package that checks to see what mascot you choose implement a main.go
 
 ### Instructions
 
-- This program does not require any non standard libraries
+- This program requres the "fmt" and "rsc.io" libraries
 
 ### Example Command
 
-- None for now.
+- None for now. Can run a test case in the mascot_test.go file

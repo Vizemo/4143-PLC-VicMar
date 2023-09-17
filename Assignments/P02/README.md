@@ -2,19 +2,19 @@
 ### Victor Marchesi
 ### Description:
 
-Baby steps of how to create a GoLang program and general structure of packages and folder creation in Go.
+In this program we will try and show some advantages of Go when compared to C++ and Python. Every high level language has its strengths, and I think Golang's can be seen in its similarity to both aforementioned languages, but more so in its library availability. Not as strong as Python's but more so than C++'s. I would like us to create Go's version of a class, that will do some rudimentary image manipulation.
 
 
 ### Files
 
 |    #    | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|    1    | [Mascot Package Folder](./mascot) | P01 goLang mascot package folder |
-|    1.1    | [mascot_test.go](./mascot/mascot_test.go) | The mascot test package that passes or fail if the mascot is the correct mascot. |
-|    1.2    | [mascot.go](./mascot/mascot.go) | The mascot go package that has a function that returns the best mascot. |
-|    2    | [go.mod](./go.mod) | .mod file where goLang knows where to pull the package from. |
-|    3    | [go.sum](./go.sum) | .sum file that pulls where the package dependencies come from. |
-|    4    | [main.go](./main.go) | The main.go file that runs and prints the best mascot along with a quote. |
+|    1    | [imagemod](./imagemod/imageManipulator) | P02 goLang mascot workspace folder |
+|    1.1    | [imageManipulator](./imageManipulator) | The imageManipulator.go package folder. |
+|    1.2    | [imageManipulator](./imageManipulator/imageManipulator.go) | The mascot go package that has a function that returns the best mascot. |
+|    2    | [go.mod](./imagemod/go.mod) | .mod file where goLang knows where to pull the package from. |
+|    3    | [go.sum](./imagemod/go.sum) | .sum file that pulls where the package dependencies come from. |
+|    4    | [main.go](./imagemod/main.go) | The main.go file that runs can modify .png files using the fogleman.gg libraries |
 
 
 

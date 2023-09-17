@@ -11,10 +11,11 @@ In this program we will try and show some advantages of Go when compared to C++ 
 | :---: | -------- | -------------------------------- |
 |    1    | [imagemod](./imagemod/) | P02 goLang mascot workspace folder |
 |    1.1    | [imageManipulator](./imageManipulator) | The imageManipulator.go package folder. |
-|    1.2    | [imageManipulator.go](./imageManipulator/imageManipulator.go) | The mascot go package that has a function that returns the best mascot. |
-|    2    | [go.mod](./imagemod/go.mod) | .mod file where goLang knows where to pull the package from. |
-|    3    | [go.sum](./imagemod/go.sum) | .sum file that pulls where the package dependencies come from. |
+|    1.2    | [imageManipulator.go](./imageManipulator/imageManipulator.go) | The mascot go package that has a function that returns the best mascot |
+|    2    | [go.mod](./imagemod/go.mod) | .mod file where goLang knows where to pull the package from |
+|    3    | [go.sum](./imagemod/go.sum) | .sum file that pulls where the package dependencies come from |
 |    4    | [main.go](./imagemod/main.go) | The main.go file that runs can modify .png files using the fogleman.gg libraries |
+|    5    | [mustangs_edited.png](./imagemod/mustangs_edited.png) | The mustangs_edited.png file created by our go program |
 
 
 

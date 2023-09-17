@@ -21,7 +21,6 @@ func main() {
 
 	// Save the modified image to a file
 	im.SaveToFile("mustangs_edited.png")
-
 	// // Create an ImageManipulator instance
 	// im := imageManipulator.NewImageManipulator(800, 600)
 

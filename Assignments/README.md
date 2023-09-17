@@ -10,6 +10,7 @@ List of all the programs for this class using markdown for ease of access.
 | :---: | -------- | -------------------------------- |
 |   1   | [Banner](./Banner) | My Banner |
 |   2   | [P01](./P01) | Program 1 folder |
+|   3   | [P02](./P02) | Program 2 folder |
 
 ### Instructions
 

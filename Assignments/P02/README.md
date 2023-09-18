@@ -16,7 +16,7 @@ In this program we will try and show some advantages of Go when compared to C++ 
 |    5    | [go.sum](./imagemod/go.sum) | .sum file that pulls where the package dependencies come from |
 |    6    | [main.go](./imagemod/main.go) | The main.go file that runs can modify .png files using the fogleman.gg libraries |
 |    7    | [mustangs_edited.png](./imagemod/mustangs_edited.png) | The mustangs_edited.png file created by our first version of the go program |
-|    8    | [mustangs.png](./imagemod/mustangs.png) | The mustangs.png file created by our go program |
+|    8    | [mustangs.png](./imagemod/mustangs.png) | The mustangs.png file created by our second version with the added constructor of the go program |
 
 
 

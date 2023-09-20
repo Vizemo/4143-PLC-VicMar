@@ -7,6 +7,8 @@ In this program we will try and show some advantages of Go when compared to C++ 
 
 ### Files
 
+#### 1.x is specifying the files are in a folder like 2.x is in another folder, etc.
+
 |    #    | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
 |    1    | [imagemod](./imagemod/) | P02 goLang mascot workspace folder |

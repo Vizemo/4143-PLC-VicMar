@@ -22,8 +22,8 @@ In this program we will try and show some advantages of Go when compared to C++ 
 
 ### Instructions
 
-- This program requres the "fmt" and "rsc.io" libraries
+- This program requres the "fmt" and ""github.com/fogleman/gg" packages
 
 ### Example Command
 
-- None for now. Can run a test case in the mascot_test.go file
+- None for now. runs main.go file - will make a rectangle on the mustangs.png file

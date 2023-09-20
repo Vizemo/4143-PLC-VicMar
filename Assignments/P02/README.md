@@ -22,7 +22,7 @@ In this program we will try and show some advantages of Go when compared to C++ 
 
 ### Instructions
 
-- This program requres the "fmt" and ""github.com/fogleman/gg" packages
+- This program requres the "fmt" and "github.com/fogleman/gg" packages
 
 ### Example Command
 

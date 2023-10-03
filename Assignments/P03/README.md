@@ -1,10 +1,8 @@
-## Program 2 - Image Getter
+## Program 3 - Image Ascii Art
 ### Victor Marchesi
 ### Description:
 
-I want to use the code from P02 and add functionality that goLang is supposed to make easy. However I think all of us are realizing how important dev environments are and learning the intricacies of a new language. The previous program just opened an image and drew a rectangle on said image. Lets add some convenience and robustness to our code:
-- Auto download an image from the web
-- Run a small web server that provides a form to enter our url.
+This project is going to allow you to utilize the packaging strengths of Go, and make your own libs that can be used anywhere just by running the go get ... command. I want you to create four packages in one module or four different modules. I'm ok with both options. However, one or three will be placed in your github account (not in your course repo).
 
 
 ### Files
@@ -13,13 +11,17 @@ I want to use the code from P02 and add functionality that goLang is supposed to
 
 |    #    | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|    1      | [imageGetter](./imageGetter/) | P03 goLang imageGetter package folder |
+|    1    | [imgMod](./imgMod/) | P03 goLang imgMod packages folder |
+|    1    | [colors](./imgMod/colors) | P03 goLang imgMod colors packages folder |
+|    1    | [getPic](./imgMod/getPic) | P03 goLang imgMod getPic packages folder |
+|    1    | [imgColors](./imgMod/imgColors) | P03 goLang imgMod imgColors packages folder |
+|    1    | [imgText](./imgMod/imgText) | P03 goLang imgMod imgText packages folder |
 
 
 ### Instructions
 
-- This program requres the "insert here" packages
+- This program requres the "colors, getPic, imgColors, imgText" packages
 
 ### Example Command
 
-- None for now. runs main.go file - insert here
+- None for now.

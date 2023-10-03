@@ -4,6 +4,8 @@ use (
 	./Assignments/P01
 	./Assignments/P02/imagemod
 	./Assignments/P03
-	./Assignments/P03/imageGetter/getPic
-	./Assignments/P03/imageGetter/goWebPic
+	./Assignments/P03/imgMod/getPic
+	./Assignments/P03/imgMod/colors
+	./Assignments/P03/imgMod/imgColors
+	./Assignments/P03/imgMod/imgText
 )

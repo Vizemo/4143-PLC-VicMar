@@ -11,11 +11,10 @@ This project is going to allow you to utilize the packaging strengths of Go, and
 
 |    #    | Files    | Description                      |
 | :---: | -------- | -------------------------------- |
-|    1    | [imgMod](./imgMod/) | P03 goLang imgMod packages folder |
-|    1    | [colors](./imgMod/colors) | P03 goLang imgMod colors packages folder |
-|    1    | [getPic](./imgMod/getPic) | P03 goLang imgMod getPic packages folder |
-|    1    | [imgColors](./imgMod/imgColors) | P03 goLang imgMod imgColors packages folder |
-|    1    | [imgText](./imgMod/imgText) | P03 goLang imgMod imgText packages folder |
+|    1    | [go.mod](./go.mod/) | P03 goLang imgMod packages folder |
+|    2    | [main.go](./main.go) | P03 goLang imgMod colors packages folder |
+|    3    | [Packages](https://github.com/Vizemo/4143imgMod) | P03 goLang imgMod getPic packages folder |
+
 
 
 ### Instructions

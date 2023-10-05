@@ -1,5 +1,5 @@
 package main
 
-// import (
-// 	"github.com/Vizemo/4143imgMod"
-// )
+import (
+	"github.com/Vizemo/ImgMod"
+)

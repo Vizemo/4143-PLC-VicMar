@@ -13,7 +13,7 @@ This project is going to allow you to utilize the packaging strengths of Go, and
 | :---: | -------- | -------------------------------- |
 |    1    | [go.mod](./go.mod/) | P03 goLang imgMod packages folder |
 |    2    | [main.go](./main.go) | P03 goLang imgMod colors packages folder |
-|    3    | [Packages](https://github.com/Vizemo/4143imgMod) | P03 goLang imgMod getPic packages folder |
+|    3    | [Packages](https://github.com/Vizemo/ImgMod) | P03 goLang imgMod packages folder |
 
 
 

@@ -1,3 +1,3 @@
-module 4143imgMod
+module main
 
 go 1.21.1

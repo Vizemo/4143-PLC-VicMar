@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("Victor Marchesi")
 	fmt.Println("Program 3 - Image Ascii Art")
 
-	// Prints black space
+	// Prints blank space
 	fmt.Print("\n")
 
 	// Call function to get picture from URL

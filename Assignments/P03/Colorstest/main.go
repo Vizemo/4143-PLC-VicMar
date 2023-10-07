@@ -19,7 +19,7 @@ func main() {
 	// Call function to get picture from URL
 	Getpic.GetPicture()
 
-	Colors.GetColors()
+	Colors.GetColor()
 
 	Grayscale.Grayscale()
 

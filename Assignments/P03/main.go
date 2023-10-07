@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	//"github.com/vizemo/imgMod/Colors"
-	"github.com/vizemo/imgMod/GetPic"
-	//"github.com/vizemo/imgMod/Grayscale"
-	//"github.com/vizemo/imgMod/Text"
+	"github.com/Vizemo/imgMod/Colors"
+	"github.com/Vizemo/imgMod/GetPic"
+	"github.com/Vizemo/imgMod/Grayscale"
+	"github.com/Vizemo/imgMod/Text"
 )
 
 func main() {
@@ -18,5 +18,11 @@ func main() {
 
 	// Call function to get picture from URL
 	GetPic.GetPicture()
+
+	Colors.GetColors()
+
+	Grayscale.Grayscale()
+
+	Text.MakePic()
 
 }

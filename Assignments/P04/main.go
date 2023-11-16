@@ -45,31 +45,6 @@ func downloadImagesConcurrent(urls []string) {
 	}
 }
 
-func main() {
-	urls := []string{
-		"https://unsplash.com/photos/hvdnff_bieQ/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTg5MDc1MDh8&w=640",
-		"https://unsplash.com/photos/HQaZKCDaax0/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTg5MDc1MDh8&w=640",
-		"https://images.unsplash.com/photo-1698778573682-346d219402b5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=640",
-		"https://unsplash.com/photos/Bs2jGUWu4f8/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTg5MDc1MDh8&w=640",
-
-		"https://unsplash.com/photos/a-man-riding-a-motorcycle-down-a-street-next-to-a-white-car-LKNeYIqONII?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
-		"https://unsplash.com/photos/a-mountain-with-a-red-peak-in-the-distance-OHDHE4aPOIw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
-		"https://unsplash.com/photos/a-mountain-with-a-red-peak-in-the-distance-OHDHE4aPOIw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
-		"https://unsplash.com/photos/a-group-of-people-riding-surfboards-on-top-of-a-wave-QzKKVA_aB4c?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
-		"https://unsplash.com/photos/a-group-of-people-riding-surfboards-on-top-of-a-wave-QzKKVA_aB4c?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
-	}
-
-	// Sequential download
-	start := time.Now()
-	downloadImagesSequential(urls)
-	fmt.Printf("Sequential download took: %v\n", time.Since(start))
-
-	// Concurrent download
-	start = time.Now()
-	downloadImagesConcurrent(urls)
-	fmt.Printf("Concurrent download took: %v\n", time.Since(start))
-}
-
 // Helper function to download and save a single image.
 func downloadImage(url, filename string) error {
 	response, err := http.Get(url)
@@ -94,4 +69,30 @@ func downloadImage(url, filename string) error {
 	}
 
 	return nil
+}
+
+func main() {
+	urls := []string{
+		"https://unsplash.com/photos/hvdnff_bieQ/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTg5MDc1MDh8&w=640",
+		"https://unsplash.com/photos/HQaZKCDaax0/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTg5MDc1MDh8&w=640",
+		"https://images.unsplash.com/photo-1698778573682-346d219402b5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=640",
+		"https://unsplash.com/photos/Bs2jGUWu4f8/download?ixid=M3wxMjA3fDB8MXx0b3BpY3x8NnNNVmpUTFNrZVF8fHx8fDJ8fDE2OTg5MDc1MDh8&w=640",
+
+		// my royalty free photos
+		"https://images.pexels.com/photos/15545361/pexels-photo-15545361/free-photo-of-photo-of-a-pomegranate-fruit.jpeg",
+		"https://images.pexels.com/photos/14264353/pexels-photo-14264353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"https://images.pexels.com/photos/17528277/pexels-photo-17528277/free-photo-of-translucent-jellyfish-in-deep-ocean.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"https://images.pexels.com/photos/18895272/pexels-photo-18895272/free-photo-of-after-glow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"https://images.pexels.com/photos/19081146/pexels-photo-19081146/free-photo-of-a-blurry-image-of-a-car-driving-down-a-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+	}
+
+	// Sequential download
+	start := time.Now()
+	downloadImagesSequential(urls)
+	fmt.Printf("Sequential download took: %v\n", time.Since(start))
+
+	// Concurrent download
+	start = time.Now()
+	downloadImagesConcurrent(urls)
+	fmt.Printf("Concurrent download took: %v\n", time.Since(start))
 }

@@ -20,7 +20,7 @@ The goal of this assignment is to understand and implement basic concurrency in 
 |    7    | [image_5.jpg](./image_5.jpg) | P04 picture 6 that are royalty free off of [https://www.pexels.com/](https://www.pexels.com/) |
 |    8    | [image_6.jpg](./image_6.jpg) | P04 picture 7 that are royalty free off of [https://www.pexels.com/](https://www.pexels.com/) |
 |    9    | [image_7.jpg](./image_7.jpg) | P04 picture 8 that are royalty free off of [https://www.pexels.com/](https://www.pexels.com/) |
-|    10    | [image_8.jpg](./image_8.jpg) | P04 picture 9 that are royalty free off of [https://www.pexels.com/](https://www.pexels.com/) |
+|    10   | [image_8.jpg](./image_8.jpg) | P04 picture 9 that are royalty free off of [https://www.pexels.com/](https://www.pexels.com/) |
 
 
 ### Instructions

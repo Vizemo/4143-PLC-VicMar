@@ -15,8 +15,8 @@ func downloadImagesSequential(urls []string) {
 	for i, url := range urls {
 		// Generate a unique filename for each image
 		filename := fmt.Sprintf("image_%d.jpg", i)
-		if err := downloadImage(url, filename); err != nil {
 
+		if err := downloadImage(url, filename); err != nil {
 			// If an error occurs during download, print an error message
 			fmt.Printf("Error downloading %s: %s\n", url, err)
 		}
@@ -34,7 +34,7 @@ func downloadImagesConcurrent(urls []string) {
 	// Loop through the URLs and start a goroutine for each download
 	for i, url := range urls {
 		// Increment the wait group counter for each goroutine
-		wg.Add(1) // Increment the wait group counter for each goroutine
+		wg.Add(1)
 
 		go func(url string, i int) {
 			// Signal the wait group when the goroutine finishes

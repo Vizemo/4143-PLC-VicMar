@@ -28,7 +28,7 @@ The goal of this assignment is to understand and implement basic concurrency in 
 - This program requres the fmt, io, net/http, os, path/filepath, time, packages
 - To run the program path over to the folder/repository and run the command "go run main.go"
 
-### Speed
+### Speed Sequential vs. Concurrent
 
 - Sequential download took: 1.38 seconds
 - Concurrent download took: 213.86 milliseconds

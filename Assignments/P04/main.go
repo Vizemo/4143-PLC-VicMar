@@ -14,7 +14,7 @@ func downloadImagesSequential(urls []string) {
 	// Iterate through the URLs sequentially
 	for i, url := range urls {
 		// Generate a unique filename for each image
-		filename := fmt.Sprintf("image_%d.jpg", i)
+		filename := fmt.Sprintf("image_%d.jpg", i+1)
 
 		if err := downloadImage(url, filename); err != nil {
 			// If an error occurs during download, print an error message
@@ -41,7 +41,7 @@ func downloadImagesConcurrent(urls []string) {
 			defer wg.Done()
 
 			// Generate a unique filename for each image
-			filename := fmt.Sprintf("image_%d.jpg", i)
+			filename := fmt.Sprintf("image_%d.jpg", i+1)
 			if err := downloadImage(url, filename); err != nil {
 				// Send any download errors to the errors channel
 				errors <- fmt.Errorf("Error downloading %s: %s", url, err)
